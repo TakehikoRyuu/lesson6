@@ -6,6 +6,7 @@ my_dict.update({'And' : 2002,
                       'Kris' : 1978})
 b = my_dict.pop('And')
 print(b)
+print(my_dict.get('Sara'))
 print(my_dict)
 # множества
 my_set = {1, 1, 2, 4, 2, 3}
